@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TECHPULSE | Desarrollo de software a medida</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-bg"></div>
+  <div class="noise"></div>
+
+  <header class="nav" data-reveal>
+    <div class="brand">
+      <img src="assets/logo.svg" alt="TECHPULSE" class="logo" />
+      <span class="brand-name">TECHPULSE</span>
+    </div>
+    <nav>
+      <a href="#services">Servicios</a>
+      <a href="#process">Proceso</a>
+      <a href="#tech">Tecnologías</a>
+      <a href="#contact" class="btn ghost">Agendar llamada</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" data-reveal>
+      <div class="hero__content">
+        <p class="eyebrow">Desarrollo de software a la medida</p>
+        <h1>Impulsa tu producto con código preciso y entregas rápidas.</h1>
+        <p class="lede">Llevo tus ideas a producción con arquitecturas escalables, APIs sólidas y experiencias de usuario que destacan. Sin ruido, solo resultados.</p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn primary">Agendar llamada</a>
+          <a href="#cases" class="btn ghost">Ver casos</a>
+        </div>
+        <div class="hero__chips">
+          <span class="chip">MVP en semanas</span>
+          <span class="chip">Back-end + Front-end</span>
+          <span class="chip">Integraciones & IA</span>
+        </div>
+      </div>
+      <div class="hero__card">
+        <div class="hero__badge">Enfoque senior</div>
+        <div class="stat">
+          <span class="stat__value">+30</span>
+          <span class="stat__label">Entregas productivas</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">99.9%</span>
+          <span class="stat__label">Disponibilidad en despliegues cloud</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">72h</span>
+          <span class="stat__label">Para el primer entregable</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section" data-reveal>
+      <div class="section__header">
+        <p class="eyebrow">Servicios</p>
+        <h2>Soluciones completas, desde la idea hasta la puesta en producción.</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h3>MVP y productos digitales</h3>
+          <p>Diseño y desarrollo de MVP listos para validar mercado en semanas, con iteraciones rápidas y métricas claras.</p>
+          <ul>
+            <li>Arquitectura ligera y escalable</li>
+            <li>UX optimizada para conversión</li>
+            <li>Deploy continuo y monitoreo</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Backend, APIs y microservicios</h3>
+          <p>APIs seguras, documentadas y listas para crecer. Integraciones con terceros y orquestación de servicios.</p>
+          <ul>
+            <li>REST/GraphQL, websockets</li>
+            <li>Autenticación, trazas y observabilidad</li>
+            <li>Bases de datos SQL/NoSQL</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Front-end y experiencias UI</h3>
+          <p>Interfaces rápidas, accesibles y con identidad propia. Animaciones sutiles y performance medida.</p>
+          <ul>
+            <li>SPAs y SSR con frameworks modernos</li>
+            <li>Design systems y componentes reutilizables</li>
+            <li>Optimización Core Web Vitals</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Automatización e IA aplicada</h3>
+          <p>Workflows automatizados, asistentes internos y análisis de datos accionables para tu negocio.</p>
+          <ul>
+            <li>Bots, RPA y pipelines de datos</li>
+            <li>Integración de modelos y APIs de IA</li>
+            <li>Dashboards y alertas en tiempo real</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="process" class="section narrow" data-reveal>
+      <div class="section__header">
+        <p class="eyebrow">Proceso</p>
+        <h2>Claridad, entregas frecuentes y cero sorpresas.</h2>
+      </div>
+      <div class="timeline">
+        <div class="step">
+          <div class="step__id">01</div>
+          <div>
+            <h3>Diagnóstico express</h3>
+            <p>Sesión inicial para entender objetivos, riesgos y métricas de éxito. Roadmap y estimaciones realistas.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__id">02</div>
+          <div>
+            <h3>Primer entregable en 72h</h3>
+            <p>Prototipo funcional o endpoint clave para validar alcance y velocidad de entrega.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__id">03</div>
+          <div>
+            <h3>Sprints con visibilidad</h3>
+            <p>Demos semanales, tableros visibles y métricas de performance. Feedback integrado en cada iteración.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__id">04</div>
+          <div>
+            <h3>Despliegue y soporte</h3>
+            <p>Automatización CI/CD, observabilidad, alertas y acompañamiento post-lanzamiento.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tech" class="section" data-reveal>
+      <div class="section__header">
+        <p class="eyebrow">Tecnologías</p>
+        <h2>Stack moderno listo para escalar.</h2>
+      </div>
+      <div class="tags">
+        <span class="tag">TypeScript</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">React / Next.js</span>
+        <span class="tag">.NET</span>
+        <span class="tag">Python</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">MongoDB</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Kubernetes</span>
+        <span class="tag">AWS / Azure</span>
+        <span class="tag">CI/CD</span>
+        <span class="tag">GraphQL</span>
+        <span class="tag">WebSockets</span>
+        <span class="tag">Redis</span>
+      </div>
+    </section>
+
+    <section id="cases" class="section" data-reveal>
+      <div class="section__header">
+        <p class="eyebrow">Casos</p>
+        <h2>Resultados que mueven la aguja.</h2>
+      </div>
+      <div class="cases">
+        <article class="case">
+          <div class="case__title">Fintech · Plataforma de pagos</div>
+          <p>Rediseño de arquitectura a microservicios y orquestación con colas. Reducción de latencia en 38% y SLA 99.9%.</p>
+        </article>
+        <article class="case">
+          <div class="case__title">Retail · IA para inventarios</div>
+          <p>Motor de predicción y alertas en tiempo real. Disminución de quiebres de stock en 24% en 3 meses.</p>
+        </article>
+        <article class="case">
+          <div class="case__title">SaaS · Onboarding self-service</div>
+          <p>Flujo onboarding + billing integrado. Conversión a pago +17% y soporte reducido 30%.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="cta" data-reveal>
+      <div>
+        <p class="eyebrow">Hablemos</p>
+        <h2>Cuéntame tu reto y te propongo un plan en 48h.</h2>
+        <p>Agenda una llamada o envía un correo con contexto y próximos hitos. Respondo con un plan claro y fechas.</p>
+        <div class="cta__actions">
+          <a class="btn primary" href="mailto:techpulse913@gmail.com?subject=Proyecto%20de%20software">Escribir ahora</a>
+          <a class="btn ghost" href="#services">Ver servicios</a>
+        </div>
+        <div class="contact-data">
+          <span>techpulse913@gmail.com</span>
+        <a href="http://wa.me/573018216191" target="_blank"><img alt="whatsapp" src="assets/whatsapp.png"></a>
+        </div>
+      </div>
+      <div class="cta__card">
+        <div class="hero__badge">Disponibilidad limitada</div>
+        <p class="lede">Tomo pocos proyectos en paralelo para garantizar foco y entregas puntuales.</p>
+        <ul>
+          <li>Kickoff en menos de 7 días</li>
+          <li>Soporte post-lanzamiento incluido</li>
+          <li>Equipo y stack seleccionados a medida</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="brand">
+      <img src="assets/logo.svg" alt="TECHPULSE" class="logo" />
+      <span class="brand-name">TECHPULSE</span>
+    </div>
+    <span>Construyamos el siguiente release.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
